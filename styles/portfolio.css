@@ -181,18 +181,20 @@ font-size: 20px;
 /* what i do style */
 .what{
     margin: 0 auto;
-    /* margin-left: 340px;
-    margin-right: 340px; */
-    width: 911px;
-    height: 90px;
-    margin-bottom: 200px;
-   
+    
+    
 }
+.section-description{
+       width: 911px; 
+       margin-bottom: 50px;
+    }
+   
 /* skill container style */
 .skill{
      padding: 30px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px  rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+    
     /* height: 250px; */
     /* width: 360px; */
 }
@@ -212,4 +214,140 @@ font-size: 20px;
 }
 .skill-description{
    
+    
 }
+
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column{
+    /* width: 511px; */
+    /* height: 175px; */
+}
+.section-title{
+    
+    /* text-align: center; */
+    margin-bottom: 113px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.exprecience{
+    width: 511px;
+    height: 175px;
+}
+.exprecience-title{
+   font-size: 25px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+     /* margin-bottom: 30px; */
+     width: 500px;
+     height: 84px;
+}
+.resume hr{
+    color: #D1D1D1;
+    margin: px;
+    
+    
+}
+.btn-extra-style{
+    /* 
+     */
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 17px 18px 51px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+     
+    
+    
+   
+}
+.text-centre{
+    text-align: center;
+}
+
+
+/* footer style */
+footer{
+    padding: 150px 213px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+
+
+.secondary-background{
+    
+
+    /* .footer-item{
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        align-items: center; */
+    }
+/* .footer-bg-colour{
+     background-color: #FFF8F3;
+     width: 1600px;
+     height: 780px;
+} */
+.footer-column{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    
+}
+ footer input[type="text"],footer textarea{
+    height:64px ;
+    width:50% ;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+    color:#757575 ;
+    /* font-size: 16px; */
+    margin-bottom: 24px;
+    padding:10px 150px 10px 20px ;
+    
+ }
+ .btn-extra-style-system{
+color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    padding: 18px 39px;
+ }
+ .msg-style{
+    padding: 18px 150px 130px 30px;
+    font-size: 16px;
+    
+ }
+  
